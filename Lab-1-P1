@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        
+        <style>
+           body {
+            background-color: rgb(163, 247, 240);
+            }
+            .maintxt{
+                color:rgb(255,255,255);
+            }
+            .info{
+                color:rgb(225, 255, 0);
+            }
+            h1{
+                color:rgb(245, 255, 102);
+            }
+            h2{
+                color:rgb(238, 240, 192);
+            }
+            #cities{
+                color:rgb(59, 255, 10);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to Kazakhstan</h1>
+        <h2>Kazakhstan one of the biggest<br> countrys in the world</h2>
+        <p class="maintxt">Kazakhstan is the world's largest landlocked country, and the eighth-largest country in the world. It has a population of 18.8 million residents, and has one of the lowest population densities in the world, at fewer than 6 people per square kilometre (15 people per sq mi). Since 1997, the capital is Nur-Sultan, formerly known as Astana. It was moved from Almaty, the country's largest city.</p>
+        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Cool.png">
+        <p class="maintxt">The territory of Kazakhstan has historically been inhabited by nomadic groups and empires. In antiquity, the nomadic Scythians inhabited the land and the Persian Achaemenid Empire expanded towards the southern territory of the modern country. Turkic nomads, who trace their ancestry to many Turkic states such as the First and Second Turkic Khaganates, have inhabited the country throughout its history. In the 13th century, the territory was subjugated by the Mongol Empire under Genghis Khan. By the 16th century, the Kazakh emerged as a distinct group, divided into three jüz.</p>
+        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Jumping.png">
+        <h3 id="cities">Biggest cities in Kazakhstan</h3>
+        <ol><li>Almaty</li>
+            <li>Astana</li>
+            <li>Shymkent</li>
+        </ol>
+        <h3>To be mentioned</h3>
+        <ul>
+        <li>Karaganda</li>
+            <li>Aktau</li>
+            <li>Atyray</li>
+        </ul>
+        <img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png">
+        <span class="info">Ty for attention!</span>
+        
+        
+    </body>
+</html>
