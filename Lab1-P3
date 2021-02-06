@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                background:rgb(222, 255, 232);
+                border:2px solid rgb(140, 237, 250);
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+            .main{
+                background:rgb(252, 255, 253);
+                border:2px groove rgb(140, 237, 250);
+                padding:14px;
+                margin:15px 0px 10px 10px;
+            }
+            #text{
+                background:rgb(225, 250, 233);
+                margin:-3px 12px 14px 15px;
+            }
+            #list{
+                background:rgb(168, 255, 196);
+                margin:-3px 12px 12px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+        <h1>You're invited!</h1>
+        <h2>To have a party at KBTU!</h2>
+        
+        <p>The details:</p>
+        <ul id="list">
+            <li>Wear suit</li>
+            <li>Wear Mask</li>
+            <li>Have fun!</li>
+              
+        </ul>
+        <p id="text">Please join us to celebrate
+            Jake's 21st Birthday
+with an evening of dinner and dancing
+on Friday, 28th March
+from 7:00 pm
+at [Venue]
+Let us know if you can join the party
+before 20th March</p>
+        </div>
+    </body>
+</html>
