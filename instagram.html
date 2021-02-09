@@ -1,0 +1,200 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instagrom</title>
+    <style>
+        body {
+            background-color: rgb(248, 248, 248);
+            font-family: inherit;
+        }
+        input {
+            line-height: 8px;
+            padding: 10px;
+            width: 280px;
+            font-size: 0.8em;
+            margin-left: 35px;
+            margin-right: 40px;
+            margin-top: 5px;   
+            margin-bottom: 5px;
+            background-color: rgb(248, 248, 248);
+            border: 0.5px solid rgb(185, 185, 185);
+            display: flex;
+            flex-direction: column;
+        }
+        button {
+            background-color:rgb(167, 208, 255);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 12px;
+            line-height: 30px;
+            padding: 0 16px;
+            width: 280px;
+            font-weight: 600;
+            margin-top: 9px;
+            margin-bottom: 20px;
+            margin-right: 0px;
+        }
+        form p {
+            color: grey;
+            font-family: cursive;
+            font-size: 12px;
+        }
+        hr {
+            width: 85px;
+            
+        }
+        a {
+            text-decoration: none;
+        }
+
+        article {
+            text-align:center;
+            position: relative;
+            margin-left: 1000px;
+            margin-right: 620px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            margin-top: 25px;
+        }
+        article img {
+            padding-top:20px;
+        }
+        footer {
+            padding-left: 560px;
+            padding-top: 120px;
+            padding-right: 560px;
+        }
+        footer p {
+            font-family: Verdana;
+            font-size: 11px;
+            line-height: 1.9em;
+            color: gray;
+            text-align: center;
+        }
+
+        .boxy {
+            margin-top: 120px;
+            margin-left: 560px;
+            margin-right: 600px;
+            display: flex;
+
+        }.signin {
+            border: 1px solid rgb(219, 219, 219);
+            background-color: white;
+            text-align: center;
+            margin-left: 30px;
+            margin-bottom: 180px;
+            width: 350px;
+            padding-top: 40px;
+        }
+
+        .signin img {
+            margin-bottom: 30px;
+        }
+
+        
+        
+
+        
+        .fb {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .fb a {
+            margin-bottom: 20px;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            font-weight: 535;
+            color: rgb(0, 60, 78)
+        }
+        .resetp a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:midnightblue;
+            font-size: 11px;
+        }
+        .box2 {
+            position: relative;
+            border: 1px solid rgb(216, 216, 216);
+            background-color: rgb(255, 255, 255);
+            margin-left: 959px;
+            margin-right: 600px;
+            margin-top: -170px;
+            width: 349px;
+            text-align: center;
+            height: 60px;
+        }
+        .noacc {
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            padding-top: 22px;
+        }
+        .noacc a {
+            color:dodgerblue;
+            font-weight: 550;
+        }
+        #or{
+            display: flex;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: gray;
+            font-size: 12px;
+        } 
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="boxy">
+        <img src="https://i.ibb.co/m9F98SF/Screenshot-1.jpg" alt="inst" border="0">
+        <div class="signin">
+            <img src="https://i.ibb.co/cY4bwdZ/Screenshot-2.jpg" alt="inst-logo" border="0">
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Номер телефона, имя пользователя или электронный адрес" autofocus required>
+                    <input type="password" placeholder="Пароль" required>
+                    <button id="enter-button" type="submit">Войти</button>
+                    <div id="or"><hr>ИЛИ<hr></div>
+                    
+                </form>
+                <div class="fb">
+                    <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook-logo" width="20">
+                    <a href="facebook.html" target="_blank">Войти через Facebook</a>
+                </div>
+                <div class="resetp">
+                    <a href="instagram.html">Забыли пароль?</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box2">
+        <div class="noacc">У вас еще нет аккаунта? <a href="instagram.html">Зарегистрироваться</a></div>
+    </div>
+
+    <article>
+        Установите приложение.
+        <br>
+        <a href="instagram.html"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_russian-ru.png/bfba6d0fd6bd.png" alt="app store" width="130"></a>
+        <a href="instagram.html"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_russian-ru.png/4c70948c09f3.png" alt="play market" width="130"></a>
+    </article>
+
+    <footer>
+        <p>
+    Информация    Блог    Вакансии    Помощь    API    Конфиденциальность    Условия    Популярные аккаунты    Хэштеги    Места    
+            Красота    Танцы и выступления    Фитнес    Еда и напитки    Дом и сад    Музыка    Изобразительное искусство
+        </p>
+        <p>Русский &nbsp;&nbsp;&nbsp;&nbsp; © Instagram от Facebook, 2021</p>
+    </footer>
+
+
+</body>
+</html>
