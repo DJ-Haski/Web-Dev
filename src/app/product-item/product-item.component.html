@@ -1,0 +1,24 @@
+  <h3>
+    <a href="{{ product.link }}" target="_blank">{{product.name}}</a>
+  </h3>
+
+  <img  class="item-image" src={{product.image}}>
+  <h4 *ngIf="product.description">
+    Product description:
+  </h4>
+
+  <p *ngIf="product.description"> 
+    {{product.description}}
+  </p>
+
+  <p *ngIf="product.rating">
+    {{product.rating}} / 5
+  </p>
+
+  <h4>
+    Price: {{product.price}} $
+  </h4>
+
+  <h4>
+    Likes: {{product.likes}}
+  </h4>
